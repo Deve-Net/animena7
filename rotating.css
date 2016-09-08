@@ -1,9 +1,4 @@
-body {
-	margin-top: 60px;
-	font-size: 14px;
-	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
-	background-color: #E5E9ED;
-}
+
 /* entire container, keeps perspective */
 .card-container {
 	  -webkit-perspective: 800px;
@@ -159,12 +154,7 @@ body {
 /*      Just for presentation        */
 
 .title{
-    color: #506A85;
-    text-align: center;
-    font-weight: 300;
-    font-size: 44px;
-    margin-bottom: 90px;
-    line-height: 90%;
+    font-size: 30px;
 }
 .title small{
     font-size: 17px;
@@ -210,17 +200,17 @@ body {
 }
 .com{
     color: #999;
-} 
+}
 
 
 /*       Fix bug for IE      */
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .front, .back{
-        -ms-backface-visibility: visible;    
+        -ms-backface-visibility: visible;
         backface-visibility: visible;
     }
-    
+
     .back {
         visibility: hidden;
         -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
